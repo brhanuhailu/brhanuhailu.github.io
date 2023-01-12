@@ -30,15 +30,13 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 Developing Portifolio website](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -60,36 +58,27 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Potifolio website] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This project is Developing portifolio using HTML and CSS. I selected template three from Microverse.
+> In this project, Mobile first using Css has been implemented.
 
-**[your_project__name]** is a...
+**[Portifolio website]** is a the main mechansium to introduce you self to the world market in software development and related field of works.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> The main tech stack and included to apply to this project are:
+
+- HTML
+- Css
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://reactjs.org/">Html</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
   </ul>
 </details>
 
@@ -97,7 +86,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> This project has the following features
+
+- Provide infomration about the developers
+- Ready format for project display
+- Added button for pop up pages
 
 - **[key_feature_1]**
 - **[key_feature_2]**
@@ -119,9 +112,10 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Every one can use the project.
 
 To get a local copy up and running, follow these steps.
+clone the repository from this github.
 
 ### Prerequisites
 
@@ -205,17 +199,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Brhanu Hailu**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@brhanuhailu](https://github.com/brhanuhailu)
+- Twitter: [@tigraycountry](https://twitter.com/TigrayCountry)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/brhanu-hailu-85578a246/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +211,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Add javascript.
 
 - [ ] **[new_feature_1]**
 - [ ] **[new_feature_2]**
@@ -245,9 +233,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> I am so excited to accept you feedback to improve my profession.
 
-If you like this project...
+If you like this project like it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,25 +245,11 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse organization
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
