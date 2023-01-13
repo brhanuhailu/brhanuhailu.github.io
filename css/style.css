@@ -11,7 +11,7 @@ body {
 }
 
 .header-container {
-  width: 375px;
+  width: 98%;
   height: 812px;
   background: #fff;
 }
@@ -192,7 +192,7 @@ body {
 
 .h-span {
   text-align: center;
-  color: #237855;
+  color: #36b37e;
 }
 
 .heder-info {
@@ -739,7 +739,8 @@ body {
   left: 0;
   top: 4px;
 }
-
+/*starting @media min 375 max 768*/
+/*startin min-width 768*/
 @media (min-width: 768px) {
   .header-container {
     background: url(../images/Header-llustration-desktop.png) no-repeat;
@@ -1137,4 +1138,5 @@ body {
   .emai-address {
     display: none;
   }
+
 }
