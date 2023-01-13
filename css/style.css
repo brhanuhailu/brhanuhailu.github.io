@@ -739,8 +739,10 @@ body {
   left: 0;
   top: 4px;
 }
-/*starting @media min 375 max 768*/
-/*startin min-width 768*/
+
+/* starting @media min 375 max 768 */
+
+/* startin min-width 768 */
 @media (min-width: 768px) {
   .header-container {
     background: url(../images/Header-llustration-desktop.png) no-repeat;
@@ -1138,5 +1140,4 @@ body {
   .emai-address {
     display: none;
   }
-
 }
