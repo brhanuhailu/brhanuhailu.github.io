@@ -1027,9 +1027,10 @@ body {
     align-items: center;
     padding: 80px 0;
     gap: 48px;
-    width: 100%;
+    width: 1125px;
     height: 700px;
-    left: 135px;
+    margin-left: 100px;
+    left: 200px;
     top: 2331px;
   }
 
@@ -1079,7 +1080,8 @@ body {
     align-items: flex-start;
     padding: 80px 0;
     gap: 24px;
-    width: 100%;
+    width: 1125px;
+    margin-left: 130px;
     height: 590px;
     left: 135px;
     top: 3139px;
