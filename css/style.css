@@ -10,6 +10,11 @@ body {
   font-style: none;
 }
 
+.wraper {
+  width: 90%;
+  margin: auto;
+}
+
 .header-container {
   width: 98%;
   height: 812px;
