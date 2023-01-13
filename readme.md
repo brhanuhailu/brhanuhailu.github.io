@@ -89,12 +89,8 @@ After you're finished please remove all the comments and instructions!
 > This project has the following features
 
 - Provide infomration about the developers
-- Ready format for project display
-- Added button for pop up pages
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Show about section pages and galary sections
+- Consist Cantact information form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
