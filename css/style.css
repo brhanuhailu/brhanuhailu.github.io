@@ -409,6 +409,10 @@
   color: #fff;
 }
 
+.footer button:focus {
+  background: #008552;
+}
+
 .footer a {
   text-align: center;
   text-decoration: none;
