@@ -411,6 +411,7 @@
 
 .footer button:focus {
   background: #008552;
+  color: #fff;
 }
 
 .footer a {
