@@ -409,6 +409,14 @@
   color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.footer button:focus {
+  background: #008552;
+  color: #fff;
+}
+
+>>>>>>> b5d31a0457a45321b39c6ef65fc35a02389b28fa
 .footer a {
   text-align: center;
   text-decoration: none;
