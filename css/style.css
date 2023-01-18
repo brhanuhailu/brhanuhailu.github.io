@@ -426,34 +426,3 @@
   color: #42526e;
 }
 
-.footer button {
-  width: 129px;
-  height: 48px;
-  background: #36B37F;
-  border-radius: 4px;
-  align-self: center;
-  border: none;
-  padding: 12px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #fff;
-}
-.footer button:focus {
-  background: #008552;
-  color: #fff;
-}
-.footer a {
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  align-self: center;
-  color: #42526E;
-}
-
