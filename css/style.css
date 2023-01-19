@@ -73,9 +73,15 @@
   text-align: center;
 }
 
+.header-nav-desktop {
+  display: none;
+  width: 98px;
+
+}
+
 .social-networks {
   width: 60%;
-  margin: 0  auto;
+  margin: 0 auto;
 }
 
 .social-links {
@@ -257,7 +263,7 @@
   position: absolute;
   height: 1625px;
   left: 0;
-  top: 3927px;
+  top: 3980px;
   margin-top: 20px;
 }
 
@@ -299,6 +305,13 @@
   line-height: 24px;
   text-align: center;
   color: #fff;
+}
+
+.abt-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  gap: 24px;
 }
 
 .abt-card {
@@ -356,7 +369,11 @@
   left: 0;
   top: 5800px;
 }
+.infos-container{
+  display: flex;
+  flex-direction: column;
 
+}
 .footer h2 {
   width: 327px;
   height: 363px;
@@ -364,16 +381,19 @@
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
+  left: 0;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
 }
 
 .footer-form {
-  width: 327px;
+  width: 325px;
   display: flex;
   flex-direction: column;
+  left: 0;
   gap: 10px;
+  padding-top: 15px;
 }
 
 .full-name,
@@ -392,7 +412,9 @@
   color: #6b778c;
   padding: 12px;
 }
-
+.last-name{
+  display: none;
+}
 .footer button {
   width: 129px;
   height: 48px;
@@ -424,4 +446,451 @@
   line-height: 32px;
   align-self: center;
   color: #42526e;
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    width: 760px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .fa {
+    display: none;
+  }
+
+  .header-container button {
+    display: none;
+  }
+
+  nav {
+    width: 1348px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .header-nav-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    list-style-type: none;
+    position: absolute;
+    width: 255px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    left: 591px;
+    top: 16px;
+  }
+
+  .headline {
+    background: url(../Images/Header-llustration-desktop.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    height: 980px;
+    left: 20px;
+    right: 20px;
+    top: 1px;
+    width: 1330px;
+
+  }
+
+  .head-title {
+    width: 850px;
+    height: 98px;
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.37px;
+    color: #172B4D;
+    margin: 200px 200px 20px 260px;
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .head-info {
+    width: 735px;
+    height: 90px;
+    margin-bottom: 24px;
+  }
+
+  .head-info p {
+    width: 735px;
+    height: 90px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 290PX;
+    line-height: 32px;
+    text-align: center;
+    color: #172B4D;
+  }
+
+  .social-networks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 200px;
+    margin-top: 2px;
+    height: 40px;
+    flex: none;
+    top: 490px;
+  }
+
+  .angle-down {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: calc(50% - 40px / 2);
+    bottom: 24px;
+    background: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 32px;
+    top: 580px;
+  }
+
+  .work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin-left: 102px;
+    gap: 24px;
+    width: 1171px;
+    height: 1090px;
+    flex: none;
+    order: 1;
+    top: 1020px;
+    flex-grow: 0;
+  }
+
+  .work-container h1 {
+    width: 447px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    margin-left: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #172B4D;
+    top: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .work-card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 1171px;
+    height: 1030px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .work-card {
+    width: 369px;
+    height: 480px;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    background-color: #EBF0EE;
+
+    border: 1px solid #D0D9D4;
+
+    /*
+     background-color: #008552;
+    width: 369px;
+height: 474px;
+    background: 
+   
+    border-radius: 8px;*/
+  }
+
+  .img-card {
+    left: 0px;
+    right: 0px;
+    background: #EBF0EE;
+    border: 1px solid #D0D9D4;
+    border-radius: 8px;
+  }
+
+  .img-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .work-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    width: 336px;
+    height: 188px;
+    left: calc(50% - 369px/2);
+    bottom: 0px;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+
+  .card-title p {
+    width: 300px;
+    height: 55px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #172B4D;
+  }
+
+  .card-langauages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 305px;
+    height: 32px;
+  }
+
+  .card-btn button:focus {
+    background-color: #008552;
+    color: #fff;
+  }
+
+  .abt-me {
+    background: url(../images/illustration\ about\ me\ desktop.png) no-repeat 100% 0%, url(../images/illustration-about-me-2-desktop.png) no-repeat 1px 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0px;
+    overflow: hidden;
+    gap: 48px;
+    width: 100%;
+    height: 640px;
+    top: 2140px;
+  }
+
+  .abt-me h2 {
+    width: 247px;
+    height: 42px;
+    margin-left: 80px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #172B4D;
+  }
+
+  .abt-detail {
+    width: 710px;
+    height: 96px;
+    margin-left: 100px;
+    margin-top: -20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526E;
+    top: 1400px;
+  }
+
+  .abt-me button {
+    background: #36B37F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+  }
+
+  .abt-me button:focus {
+    background-color: #008552;
+    color: #ffff;
+  }
+
+  .abt-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 24px;
+    width: 1171px;
+    height: 360px;
+  }
+
+  .abt-card {
+    width: 369px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abt-title {
+    width: 337px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 32px;
+    text-align: center;
+    color: #344563;
+
+  }
+
+  .abt-card ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    width: 303px;
+    height: 88px;
+  }
+
+  .abt-card li {
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #36B37E;
+  }
+
+  .footer {
+    background: 
+    url(../Images/contact\ form-illustratoin-3-desktop.png) no-repeat 100% 90%,
+    url(../Images/illustration-2-contact-form-desktop@2x.png) no-repeat 20% 85%,
+    url(../Images/illustration-1-contact-form-desktop.png) no-repeat 0% 95%;
+    display: flex;
+    align-items: flex-start;
+    padding: 80px 0;
+    gap: 24px;
+    width: 100%;
+    height: 590px;
+    left: 0px;
+    top: 2940px;;
+    bottom: 0;
+  }
+ .infos-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+    width: 1175px;
+    height: 460px;
+    gap: 24px;
+    padding: 0px 0px;
+ }
+ .infos-container h2{
+  width: 460px;
+  height: 256px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  color: #172B4D;
+  text-align: justify;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+ }
+
+ .footer-form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 684px;
+  height: 330px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+ }
+ /*.full-name{
+  box-sizing: border-box;
+  left: 0px;
+  right: 0px;
+  width: 50px;;
+  top: 0px;
+  bottom: 0px;
+  background: #FFFFFF;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+ }*/
+ .footer-form button{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px;
+  margin-right: 555px;
+  gap: 10px;
+  width: 129px;
+  height: 48px;
+  background: #36B37F;
+  border-radius: 4px;
+  flex: none;
+ }
+
+ .dash {
+  width: 100%;
+  border-top: 2px solid #DFE1E6;
+  margin-top: 280px;
+ }
+
+ .footer a {
+  display: none;
+ }
 }
