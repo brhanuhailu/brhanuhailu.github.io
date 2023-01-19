@@ -11,7 +11,14 @@
 <body>
     <header class="header-container">
         <div class="logo">Welcome</div>
-        <button><i class="fa fa-bars"></i></button>
+        <button><i class="fa fa-bars" class="humberger"></i></button>
+        <nav>
+            <ul class="header-nav-desktop">
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contract</li>
+            </ul>
+        </nav>
     </header>
     <section class="headline">
         <div class="head-title">
@@ -37,7 +44,7 @@
     </section>
     <section class="work-container">
         <h1>My Recent Works</h1>
-        <img src="images/Indicator.png" alt="Work Indicator">
+        <img class="indicator"src="images/Indicator.png" alt="Work Indicator">
         <div class="work-card-container">
             <div class="work-card">
                 <div class="img-card">
@@ -157,12 +164,13 @@
     </section>
     <!--about me section started-->
     <section class="abt-me">
-        <h2>About me</h2>
+        <h2 class="abt-me-title">About me</h2>
         <p class="abt-detail">
             I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
             don’t hestiate to contact me.
         </p>
         <button type="button">Get My Resume</button>
+     <div class="abt-card-container">
         <div class="abt-card">
             <img src="images/lang.png" alt="languages">
             <p class="abt-title">Languages</p>
@@ -176,7 +184,7 @@
         <div class="abt-card">
             <img src="images/framew.png" alt="languages">
             <p class="abt-title">FrameWorks</p>
-            <ul>
+            <ul class="abt-list">
                 <li>Bootstrap</li>
                 <li>Ruby on rails</li>
                 <li>RSpec</li>
@@ -195,17 +203,23 @@
                 <li>Terminal</li>
             </ul>
         </div>
-    </section>
+    </div>
+  </section>
     <!--about me section ended-->
     <!--foote setction started-->
     <section class="footer">
-        <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
+        <div class="infos-container">
+        <h2 class="left-side-footer">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
         <form action="https://formspree.io/f/myyvbggy" class="footer-form" method="post">
-            <input type="text" class="full-name" name="name" placeholder="Full name" maxlength="30" required />
+            <input type="text" class="full-name" name="name" placeholder="First Name" maxlength="30" required />
+            <input type="text" class="last-name" name="name" placeholder="Last Name" maxlength="30" required />
             <input type="email" name="email" id="" class="email" placeholder="Email address" required />
             <textarea class="msg" name="suggest" id="" cols="10" rows="4" placeholder="Enter text here" maxlength="500" required ></textarea>
             <button type="submit">Get in touch</button>
         </form>
+        </div>
+        
+        <div class="dash">
         <div class="social-networks">
             <ul class="social-links">
                 <li><i class="fa fa-twitter"></i></li>
@@ -215,7 +229,8 @@
                 <li><i class="fa fa-angellist"></i></li>
             </ul>
         </div>
-        <a href="gmail.com">Hailubrhanu29@gmail.com</a>
+    </div>
+        <a class="footer-link" href="gmail.com">Hailubrhanu29@gmail.com</a>
     </section>
     <!--footer section ended-->
 </body>
